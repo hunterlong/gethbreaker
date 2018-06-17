@@ -1,4 +1,4 @@
-# Geth Breaker
+# Geth Breaker [![Build Status](https://travis-ci.org/hunterlong/gethbreaker.svg?branch=master)](https://travis-ci.org/hunterlong/gethbreaker)
 A simple to use tool to break into your Ethereum JSON keystore wallet with a password list.
 
 
