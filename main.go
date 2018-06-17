@@ -44,7 +44,7 @@ func main() {
 	file, err := os.Open(passwordFile)
 	if err != nil {
 		fmt.Printf("Could not open file: %v\n", passwordFile)
-		os.Exit(1)
+		os.Exit(0)
 	}
 
 	defer file.Close()
@@ -79,7 +79,7 @@ func TryPassword(password string) {
 		fmt.Printf("File:     %v\n", walletFile)
 		fmt.Printf("Address:  %v\n", key.Address.String())
 		fmt.Printf("Password: %v\n", password)
-		os.Exit(1)
+		os.Exit(0)
 	}
 	<-guard
 }
