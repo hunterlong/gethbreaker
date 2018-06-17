@@ -34,7 +34,7 @@ func main() {
 	walletFile = os.Args[1]
 	passwordFile = os.Args[2]
 
-	guard = make(chan struct{}, 8)
+	guard = make(chan struct{}, 16)
 	passWait = new(sync.WaitGroup)
 
 	fmt.Printf("Loading wallet file:    %v\n", walletFile)

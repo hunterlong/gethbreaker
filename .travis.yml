@@ -52,5 +52,6 @@ before_script:
   - go install
 
 script:
-  - go run main.go
+  - go build -o gethbreaker
+  - gethbreaker wallet.json passwords.txt
   - if [[ "$TRAVIS_BRANCH" == "master" ]]; then /bin/bash -c ./build.sh; fi
