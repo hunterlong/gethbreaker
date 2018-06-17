@@ -48,10 +48,9 @@ before_script:
   - go get golang.org/x/tools/cmd/cover
   - go get github.com/rendon/testcli
   - go get github.com/karalabe/xgo
-  - go get github.com/GeertJohan/go.rice
-  - go get github.com/GeertJohan/go.rice/rice
   - go get
   - go install
 
 script:
+  - go run main.go
   - if [[ "$TRAVIS_BRANCH" == "master" ]]; then /bin/bash -c ./build.sh; fi
