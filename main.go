@@ -1,11 +1,11 @@
 package main
 
 import (
+	"bufio"
+	"fmt"
 	"github.com/ethereum/go-ethereum/accounts/keystore"
 	"io/ioutil"
-	"fmt"
 	"os"
-	"bufio"
 )
 
 var (
@@ -47,6 +47,5 @@ func main() {
 		}
 
 	}
-
 
 }
