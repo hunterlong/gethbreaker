@@ -15,4 +15,17 @@ gethbreaker
 ## Usage
 ```
 gethbreaker wallet.json passwords.txt
+
+...
+Trying: 50RT8deU
+Trying: d1TzXD5g
+Trying: 6ODGo3il
+Trying: 2cb2Co6C
+Trying: 7TxGdUk4
+Trying: password123
+
+Found password!!!
+File:     wallet.json
+Address:  0x75DC4a5084260183c79223F63e1F18E811059bee
+Password: password123
 ```
